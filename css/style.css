@@ -1,0 +1,46 @@
+body{
+  background: #979A9A;
+  text-align: center;
+}
+.parent{
+  border: 2px solid #C0392B;
+  background: #229954;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  padding:3%;
+
+}
+.child{
+  background: #2874A6;
+  width=30%;
+  border: 2px solid #C0392B;
+  border-radius: 5%;
+  height:45%;
+  padding:3%;
+  margin:2%;
+  text-align: center;
+}
+img{
+  border-radius: 5%;
+  width:80%;
+  height:80%;
+
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+  .child{
+    width:100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+  .child{
+    width:30%;
+  }
+
+}

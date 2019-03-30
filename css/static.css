@@ -1,0 +1,53 @@
+body{
+  background: #979A9A;
+}
+.left{
+  background-color: pink;
+  width:30%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+}
+img{
+  width:100%;
+}
+.right{
+  background: #E67E22;
+  width:69%;
+  border:2px solid black;
+  border-radius: 5px;
+  margin:1%;
+}
+.parent{
+  display: flex;
+}
+table{
+  width:100%;
+  font-size: 10px;
+
+
+}
+table th,td{
+  border: 1px solid black;
+}
+@media screen and (max-width:767px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+  .left{
+    width:100%;
+  }
+  .right{
+    width:100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .parent{
+    flex-wrap:wrap;
+  }
+   .right{
+    width:66%;
+
+}
+}

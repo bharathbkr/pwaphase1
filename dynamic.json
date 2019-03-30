@@ -1,0 +1,46 @@
+{
+  "profile":{
+    "image":"images/ben.jpg",
+    "name":"Bharath",
+    "designation":"student",
+    "mobile":"13443545434",
+    "email":"bharathkumarreddy2815@gmail.com"
+  },
+  "career":{
+    "info":"to startup a company"
+  },
+  "education":
+  [
+    {
+    "institute":"MITS",
+    "qualification":"B.Tech",
+    "percentage":"90%",
+    "yearofpassing":"2021"
+  },
+  {
+    "institute":"narayana college",
+    "qualification":"intermediate",
+    "percentage":"94.6%",
+    "yearofpassing":"2017"
+
+  },
+  {
+    "institute":"keshava Reddy school",
+    "qualification":"10th",
+    "percentage":"90",
+    "yearofpassing":"2015"
+  }
+],
+"skills":
+[
+  {
+  "name":"web technologies",
+  "info":["java","c/c++","HTML","css","js"]
+},
+{
+  "name":"database",
+  "info":["jdbc","sql"]
+}
+]
+
+}
